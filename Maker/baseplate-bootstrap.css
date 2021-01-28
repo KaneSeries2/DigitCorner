@@ -1,0 +1,77 @@
+html {
+	overflow: hidden;
+}
+
+#side-menu {
+	width: 20vw;
+	height: 98vh;
+	position: relative;
+	left: 0vw;
+	top: 0vh;
+	box-shadow: 3px 3px 8px black;
+	border-radius: 10px;
+	border: black 1px solid;
+}
+
+.menu-button {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: transparent;
+	border-radius: 5px;
+	padding: 5px 5px;
+	width: 150px;
+	border: 2px solid black;
+	outline: none;
+	cursor: pointer;
+	position: relative;
+}
+
+.workspace {
+	width: 75vw;
+	height: 80vh;
+	position: relative;
+	left: 23vw;
+	top: -90vh;
+	box-shadow: 3px 3px 8px black;
+	border-radius: 10px;
+	border: black 1px solid;
+}
+
+.editable {
+	outline: none;
+}
+
+.menu-top {
+	width: 75vw;
+	height: 5vh;
+	position: relative;
+	left: 23vw;
+	top: -177vh;
+	box-shadow: 3px 3px 8px black;
+	border-radius: 10px;
+	border: black 1px solid;
+}
+body {
+	margin: 0px;
+	background-size: 100% 100%;
+	margin: 0px;
+	text-shadow: -1px 0 #fff, 0 1px #fff, 1px 0 #fff, 0 -1px #fff;
+}
+
+select {
+	font-size: 30px;
+}
+
+#page {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	display: -webkit-flex;
+	display: flex;
+	text-align: center;
+}
+
+#container {
+	width: 100vw;
+	-webkit-align-self: center;
+	align-self: center;
+}
